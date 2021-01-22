@@ -1,0 +1,76 @@
+StataFileTM:00001:01100:GREC:                          :
+00007:00007:00001:
+*! classname: bargraph_g
+*! family: bar
+*! date: 21 Jan 2021
+*! time: 19:38:16
+*! graph_scheme: s2color
+*! naturallywhite: 1
+*! end
+
+// File created by Graph Editor Recorder.
+// Edit only if you know what you are doing.
+
+.scaleaxis.title.text = {}
+// title edits
+
+// title edits
+
+.scaleaxis.reset_rule 0 3.3 1 , tickset(major) ruletype(range) 
+// scaleaxis edits
+
+.legend.draw_view.setstyle, style(no)
+// legend edits
+
+.style.editstyle boxstyle(shadestyle(color(white))) editcopy
+.style.editstyle boxstyle(linestyle(color(white))) editcopy
+// Graph color
+
+.plotregion1.GraphEdit, cmd(_set_graphstyle_remake gap 40)
+// bar region gap
+
+.plotregion1.bars[1].style.editstyle shadestyle(color(ltkhaki)) editcopy
+.plotregion1.bars[1].style.editstyle linestyle(color(maroon)) editcopy
+// bars[1] color
+
+.plotregion1.bars[2].style.editstyle shadestyle(color(ltkhaki)) editcopy
+.plotregion1.bars[2].style.editstyle linestyle(width(medium)) editcopy
+// bars[2] edits
+
+.plotregion1.bars[1].style.editstyle linestyle(width(medium)) editcopy
+// bars[1] width
+
+.plotregion1.bars[3].style.editstyle shadestyle(color(maroon)) editcopy
+.plotregion1.bars[3].style.editstyle linestyle(color(maroon)) editcopy
+// bars[3] color
+
+.plotregion1.bars[4].style.editstyle shadestyle(color(maroon)) editcopy
+.plotregion1.bars[4].style.editstyle linestyle(color(maroon)) editcopy
+// bars[4] color
+
+.varaxis.add_ticks 12 `""Control" "classes" "2015""', tickset(major)
+// varaxis edits
+
+.varaxis.add_ticks 36 `"a"', tickset(major)
+// varaxis edits
+
+.varaxis.major.delete_tick 2
+// varaxis edits
+
+.varaxis.add_ticks 37 `""Treatment" "classes" "2015""', tickset(major)
+// varaxis edits
+
+.varaxis.add_ticks 63 `""Control" "classes" "2016""', tickset(major)
+// varaxis edits
+
+.varaxis.major.delete_tick 3
+// varaxis edits
+
+.varaxis.add_ticks 62.5 `""Control" "classes" "2016""', tickset(major)
+// varaxis edits
+
+.varaxis.add_ticks 88 `""Treatment" "classes" "2016""', tickset(major)
+// varaxis edits
+
+
+// <end>

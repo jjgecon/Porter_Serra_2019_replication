@@ -1,0 +1,2 @@
+# Sorry - Data not available in this repository
+TO avoid any conflicts with the American Economic Association (AEA), the data is not included in this repository. However, members of the AEA can access the data set on the Additional Materials [here](https://www.aeaweb.org/articles?id=10.1257/app.20180426).

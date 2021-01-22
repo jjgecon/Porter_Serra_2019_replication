@@ -1,0 +1,94 @@
+StataFileTM:00001:01100:GREC:                          :
+00007:00007:00001:
+*! classname: bargraph_g
+*! family: bar
+*! date: 17 Jan 2021
+*! time: 22:39:19
+*! graph_scheme: s2color
+*! naturallywhite: 1
+*! end
+
+// File created by Graph Editor Recorder.
+// Edit only if you know what you are doing.
+
+.style.editstyle boxstyle(shadestyle(color(white))) editcopy
+.style.editstyle boxstyle(linestyle(color(white))) editcopy
+// Graph color
+
+.legend.draw_view.setstyle, style(no)
+// legend edits
+
+.scaleaxis.title.text = {}
+.scaleaxis.title.text.Arrpush Percent
+// title edits
+
+.scaleaxis.reset_rule 0 32 5 , tickset(major) ruletype(range) 
+// scaleaxis edits
+
+.plotregion1.GraphEdit, cmd(_set_graphstyle_remake gap 40)
+// bar region gap
+
+.varaxis.style.editstyle majorstyle(tickstyle(show_ticks(yes))) editcopy
+// varaxis edits
+
+.varaxis.add_ticks 13 `""Control" "classes" "2015""', tickset(major)
+// varaxis edits
+
+.varaxis.add_ticks 38 `""Treatment" "classes" "2015""', tickset(major)
+// varaxis edits
+
+.varaxis.add_ticks 62 `""Control" "classes" "2016""', tickset(major)
+// varaxis edits
+
+.varaxis.add_ticks 87 `""Treatment" "classes" "2015""', tickset(major)
+// varaxis edits
+
+.plotregion1.bars[1].style.editstyle shadestyle(color(gold)) editcopy
+.plotregion1.bars[1].style.editstyle linestyle(color(gold)) editcopy
+// bars[1] color
+
+.plotregion1.bars[1].style.editstyle shadestyle(color(sandb)) editcopy
+.plotregion1.bars[1].style.editstyle linestyle(color(sandb)) editcopy
+// bars[1] color
+
+.plotregion1.bars[1].style.editstyle shadestyle(color(ltkhaki)) editcopy
+.plotregion1.bars[1].style.editstyle linestyle(color(ltkhaki)) editcopy
+// bars[1] color
+
+.plotregion1.bars[1].style.editstyle shadestyle(color(sand)) editcopy
+.plotregion1.bars[1].style.editstyle linestyle(color(sand)) editcopy
+// bars[1] color
+
+.plotregion1.bars[1].style.editstyle shadestyle(color(eggshell)) editcopy
+.plotregion1.bars[1].style.editstyle linestyle(color(eggshell)) editcopy
+// bars[1] color
+
+.plotregion1.bars[1].style.editstyle linestyle(color(orange)) editcopy
+.plotregion1.bars[1].style.editstyle linestyle(width(medthin)) editcopy
+// bars[1] edits
+
+// bars[1] edits
+
+.plotregion1.bars[2].style.editstyle shadestyle(color(eggshell)) editcopy
+.plotregion1.bars[2].style.editstyle linestyle(color(orange)) editcopy
+.plotregion1.bars[2].style.editstyle linestyle(width(medthin)) editcopy
+// bars[2] edits
+
+.plotregion1.bars[3].style.editstyle shadestyle(color(orange)) editcopy
+.plotregion1.bars[3].style.editstyle linestyle(color(orange)) editcopy
+// bars[3] color
+
+// bars[4] color
+
+.plotregion1.bars[3].style.editstyle shadestyle(color(dkorange)) editcopy
+.plotregion1.bars[3].style.editstyle linestyle(color(dkorange)) editcopy
+// bars[3] color
+
+.plotregion1.bars[2].style.editstyle linestyle(color(dkorange)) editcopy
+// bars[2] color
+
+.plotregion1.bars[1].style.editstyle linestyle(color(dkorange)) editcopy
+// bars[1] color
+
+
+// <end>

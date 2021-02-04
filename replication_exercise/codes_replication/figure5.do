@@ -38,16 +38,16 @@ forvalues i = 1/2 {
     local a : word `i' of $interest_vars
 	local b : word `i' of $panel
 	graph bar (mean) `a' if female == 0, over(g1) asyvars ///
-	play(porter_serra_4) ytitle("Percentage") title("Panel `b'") 
+	play(porter_serra_4) ytitle("Percentage") title("Panel `b'") ylabel(,labsize(vsmall))
 	graph save "Graph" "figures_tables\aux_panels\Panel `b'.gph", replace
 }
 
 graph bar (mean) numeconclass if female == 0, over(g1) asyvars ///
-play(porter_serra_5) ytitle("Percentage") title("Panel C")
+play(porter_serra_5) ytitle("Percentage") title("Panel C") ylabel(,labsize(vsmall))
 graph save "Graph" "figures_tables\aux_panels\Panel C.gph", replace
 
 graph bar (mean) econmajor if female == 0, over(g1) asyvars ///
-play(porter_serra_4) ytitle("Percentage") title("Panel D")
+play(porter_serra_4) ytitle("Percentage") title("Panel D") ylabel(,labsize(vsmall))
 graph save "Graph" "figures_tables\aux_panels\Panel D.gph", replace
 
 // Now we get the combination of all panels

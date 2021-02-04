@@ -8,21 +8,23 @@ Gender Differences in the Choice of Major The Importance of Female Role Models
 Please note that the data can be found in the articles suplementary resources at
 https://www.aeaweb.org/articles?id=10.1257/app.20180426
 
-Required Packages:
-- texodc (write in latex with Stata)
-
 Stata Version 16
 */
 
 clear all
+set varabbrev off 
 set more off
 
-// Uncomment the next line to install the package texodc
-// ssc install texodc
+// Required Packages:
+foreach of varlist texdoc {
+	capture ssc install texdoc
+}
 
-// Here you can set the directory of the folder with the data
+// Here you can set the directory of the folder
 capture cd "D:/OneDrive/Work/Personal Projects/Porter y Serra Replication/replication_exercise"
 capture cd "C:\Users\javie\OneDrive\Work\Personal Projects\Porter y Serra Replication\replication_exercise"
+
+** REPLICATION CODE **
 
 do "codes_replication/table1"
 
@@ -82,5 +84,7 @@ and paste them in the folder
 C:\Users\YOUR_USER\ado\personal\grec\
 */
 do "codes_replication/figure5"
+
+** PERFORM EXTRA ANALYSIS **
 
 do "codes_extra_analysis/.do"

@@ -1,0 +1,134 @@
+StataFileTM:00001:01100:GREC:                          :
+00007:00007:00001:
+*! classname: bargraph_g
+*! family: bar
+*! date: 30 Jan 2021
+*! time: 21:54:11
+*! graph_scheme: s2color
+*! naturallywhite: 1
+*! end
+
+// File created by Graph Editor Recorder.
+// Edit only if you know what you are doing.
+
+.legend.draw_view.setstyle, style(no)
+// legend edits
+
+.scaleaxis.reset_rule 0 32 5 , tickset(major) ruletype(range) 
+// scaleaxis edits
+
+.scaleaxis.reset_rule 0 32 5 , tickset(major) ruletype(range) 
+// scaleaxis edits
+
+.scaleaxis.title.text = {}
+.scaleaxis.title.text.Arrpush Percent
+// title edits
+
+.style.editstyle boxstyle(shadestyle(color(white))) editcopy
+.style.editstyle boxstyle(linestyle(color(white))) editcopy
+// Graph color
+
+.plotregion1.GraphEdit, cmd(_set_graphstyle_remake gap 60)
+// bar region gap
+
+.varaxis.add_ticks 31 `"a"', tickset(major)
+// varaxis edits
+
+.varaxis.add_ticks 12 `"a"', tickset(major)
+// varaxis edits
+
+.varaxis.add_ticks 11.5 `"a"', tickset(major)
+// varaxis edits
+
+.varaxis.major.delete_tick 2
+// varaxis edits
+
+.varaxis.major.delete_tick 1
+// varaxis edits
+
+.varaxis.major.num_rule_ticks = 0
+.varaxis.edit_tick 1 11.5 `""Control" "classes" "2015""', tickset(major)
+// varaxis edits
+
+.varaxis.add_ticks 33 `"a"', tickset(major)
+// varaxis edits
+
+.varaxis.major.delete_tick 2
+// varaxis edits
+
+.varaxis.add_ticks 38 `"a"', tickset(major)
+// varaxis edits
+
+.varaxis.add_ticks 37.5 `"a"', tickset(major)
+// varaxis edits
+
+.varaxis.major.num_rule_ticks = 0
+.varaxis.edit_tick 3 37.5 `"a"', tickset(major)
+// varaxis edits
+
+.varaxis.major.delete_tick 2
+// varaxis edits
+
+.varaxis.major.delete_tick 2
+// varaxis edits
+
+.varaxis.add_ticks 36 `""Treatment" "classes" "2015""', tickset(major)
+// varaxis edits
+
+.varaxis.major.delete_tick 2
+// varaxis edits
+
+.varaxis.add_ticks 36.5 `""Treatment" "classes" "2015""', tickset(major)
+// varaxis edits
+
+.varaxis.major.delete_tick 2
+// varaxis edits
+
+.varaxis.add_ticks 37 `""Treatment" "classes" "2015""', tickset(major)
+// varaxis edits
+
+.varaxis.add_ticks 61.5 `""Control" "classes" "2016""', tickset(major)
+// varaxis edits
+
+.varaxis.major.delete_tick 3
+// varaxis edits
+
+.varaxis.add_ticks 63 `""Control" "classes" "2016""', tickset(major)
+// varaxis edits
+
+.varaxis.add_ticks 88 `""Treatment" "classes" "2016""', tickset(major)
+// varaxis edits
+
+.varaxis.major.delete_tick 4
+// varaxis edits
+
+.varaxis.add_ticks 89 `""Treatment" "classes" "2016""', tickset(major)
+// varaxis edits
+
+.plotregion1.bars[1].style.editstyle shadestyle(color(ltkhaki)) editcopy
+.plotregion1.bars[1].style.editstyle linestyle(color(dkorange)) editcopy
+// bars[1] color
+
+.plotregion1.bars[1].style.editstyle shadestyle(color(sand)) editcopy
+// bars[1] color
+
+// bars[2] color
+
+.plotregion1.bars[2].style.editstyle linestyle(width(medthick)) editcopy
+// bars[2] width
+
+.plotregion1.bars[2].style.editstyle linestyle(color(dkorange)) editcopy
+// bars[2] color
+
+.plotregion1.bars[1].style.editstyle linestyle(width(medthick)) editcopy
+// bars[1] width
+
+.plotregion1.bars[2].style.editstyle shadestyle(color(sand)) editcopy
+// bars[2] color
+
+.plotregion1.bars[3].style.editstyle shadestyle(color(dkorange)) editcopy
+.plotregion1.bars[3].style.editstyle linestyle(color(dkorange)) editcopy
+// bars[3] color
+
+
+// <end>

@@ -51,3 +51,18 @@ graph twoway (bar prob_fprof female_prof if female_prof==0) ///
 probit took_fall female_prof##female gradePrinciples ACumGPA top yr_2016
 margins female_prof, at(female == 1) 
 margins female_prof, at(female == 0) 
+
+//////////////////////////////////////////////////////////////////
+gen treat2016_fprof = treat2016 * female_prof
+gen fprof_2016 = female_prof*yr_2016
+gen fprof_treat = treatment_class*female_prof
+global interest "treat2016_fprof fprof_2016 fprof_treat treat2016 female_prof treatment_class yr_2016"
+global controls "instate freshman american ACumGPA small_class gradePrinciples"
+
+foreach y of varlist took_fall econmajor numeconclass tookanother {
+	reg `y' $interest $controls if female == 0, cluster(class_fe2)
+}
+
+foreach y of varlist took_fall econmajor numeconclass tookanother {
+	probit `y' $interest $controls if female == 1, cluster(class_fe2)
+}

@@ -16,8 +16,8 @@ set varabbrev off
 set more off
 
 // Required Packages:
-foreach of varlist texdoc {
-	capture ssc install texdoc
+foreach pkg in "texdoc boottest" {
+	capture ssc install `pkg'
 }
 
 // Here you can set the directory of the folder
@@ -87,4 +87,20 @@ do "codes_replication/figure5"
 
 ** PERFORM EXTRA ANALYSIS **
 
-do "codes_extra_analysis/.do"
+do "codes_extra_analysis/table1_extra.do"
+
+do "codes_extra_analysis/table2_extra.do"
+
+// Figure 1 extra
+/* need to set the style recording 
+In Windows you should copy the files
+"porter_serra_extra.grec"
+and paste them in the folder 
+C:\Users\YOUR_USER\ado\personal\grec\
+
+Note: to mathc the font style I needed to export the figure as svg instead of
+a pdf
+*/
+do "codes_extra_analysis/figure1_extra.do"
+
+do "codes_extra_analysis/table3_extra.do"

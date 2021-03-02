@@ -8,12 +8,12 @@ Objective:
 // Load Data set
 use "data/PorterSerraAEJ.dta",clear
 
-global interest "female_prof small_class ACumGPA survey_econmajor female"
-global store_results "female_prof small_class ACumGPA survey_econmajor female _cons"
+global interest "female_prof small_class ACumGPA survey_econmajor "
+global store_results "female_prof small_class ACumGPA survey_econmajor _cons"
 
-forvalues i = 1/6 {
+forvalues i = 1/5 {
     local var : word `i' of $store_results
-    reg gradePrinciples $interest, cluster(class_fe2)
+    reg gradePrinciples $interest if female == 0, cluster(class_fe2)
     global lpm1_`var': di %6.3f e(b)[1,`i']
 	global lpm1_n = e(N)
 	boottest `var', reps(1000) weight(webb) bootcluster(class_fe2) nograph
@@ -44,10 +44,6 @@ tex  &  \tabularnewline
 tex Intended econ major & ${lpm1_survey_econmajor} \tabularnewline
 tex  & (${lpm1_p_survey_econmajor}) \tabularnewline
 tex  & {[}${lpm1_c1_survey_econmajor},${lpm1_c2_survey_econmajor}{]} \tabularnewline
-tex  &  \tabularnewline
-tex Female Student & ${lpm1_female} \tabularnewline
-tex  & (${lpm1_p_female}) \tabularnewline
-tex  & {[}${lpm1_c1_female},${lpm1_c2_female}{]} \tabularnewline
 tex  &  \tabularnewline
 tex Constant  & ${lpm1__cons} \tabularnewline
 tex  & (${lpm1_p__cons}) \tabularnewline

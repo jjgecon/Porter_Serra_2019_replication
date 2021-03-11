@@ -70,15 +70,15 @@ tex \begin{tabular}{lcccc} \toprule
 tex  & Took class  & Major in & Number of  & Took another\tabularnewline
 tex  & next Fall  & economics  & econ classes & econ class \tabularnewline \midrule
 tex  &  &  &  & \tabularnewline
-tex Female Profesor $\times$ Year 2016 & ${lpm1_treat2016_fprof} & ${lpm2_treat2016_fprof} & ${lpm3_treat2016_fprof} & ${lpm4_treat2016_fprof}\tabularnewline
+tex Female Professor $\times$ Year 2016 & ${lpm1_treat2016_fprof} & ${lpm2_treat2016_fprof} & ${lpm3_treat2016_fprof} & ${lpm4_treat2016_fprof}\tabularnewline
 tex $\times$ Treated class  & (${lpm1_p_treat2016_fprof}) & (${lpm2_p_treat2016_fprof}) & (${lpm3_p_treat2016_fprof}) & (${lpm4_p_treat2016_fprof})\tabularnewline
 tex  & {[}${lpm1_c1_treat2016_fprof},${lpm1_c2_treat2016_fprof}{]} & {[}${lpm2_c1_treat2016_fprof},${lpm2_c2_treat2016_fprof}{]} & {[}${lpm3_c1_treat2016_fprof},${lpm3_c2_treat2016_fprof}{]} & {[}${lpm4_c1_treat2016_fprof},${lpm4_c2_treat2016_fprof}{]}\tabularnewline
 tex  &  &  &  & \tabularnewline
-tex Female Profesor $\times$  & ${lpm1_fprof_2016} & ${lpm2_fprof_2016} & ${lpm3_fprof_2016} & ${lpm4_fprof_2016}\tabularnewline
+tex Female Professor $\times$  & ${lpm1_fprof_2016} & ${lpm2_fprof_2016} & ${lpm3_fprof_2016} & ${lpm4_fprof_2016}\tabularnewline
 tex Year 2016  & (${lpm1_p_fprof_2016}) & (${lpm2_p_fprof_2016}) & (${lpm3_p_fprof_2016}) & (${lpm4_p_fprof_2016})\tabularnewline
 tex  & {[}${lpm1_c1_fprof_2016},${lpm1_c2_fprof_2016}{]} & {[}${lpm2_c1_fprof_2016},${lpm2_c2_fprof_2016}{]} & {[}${lpm3_c1_fprof_2016},${lpm3_c2_fprof_2016}{]} & {[}${lpm4_c1_fprof_2016},${lpm4_c2_fprof_2016}{]}\tabularnewline
 tex  &  &  &  & \tabularnewline
-tex Female Profesor $\times$ & ${lpm1_fprof_treat} & ${lpm2_fprof_treat} & ${lpm3_fprof_treat} & ${lpm4_fprof_treat}\tabularnewline
+tex Female Professor $\times$ & ${lpm1_fprof_treat} & ${lpm2_fprof_treat} & ${lpm3_fprof_treat} & ${lpm4_fprof_treat}\tabularnewline
 tex Treated class & (${lpm1_p_fprof_treat}) & (${lpm2_p_fprof_treat}) & (${lpm3_p_fprof_treat}) & (${lpm4_p_fprof_treat})\tabularnewline
 tex  & {[}${lpm1_c1_fprof_treat},${lpm1_c2_fprof_treat}{]} & {[}${lpm2_c1_fprof_treat},${lpm2_c2_fprof_treat}{]} & {[}${lpm3_c1_fprof_treat},${lpm3_c2_fprof_treat}{]} & {[}${lpm4_c1_fprof_treat},${lpm4_c2_fprof_treat}{]}\tabularnewline
 tex  &  &  &  & \tabularnewline
@@ -86,7 +86,7 @@ tex Treated class $\times$ & ${lpm1_treat2016} & ${lpm2_treat2016} & ${lpm3_trea
 tex Year 2016 & (${lpm1_p_treat2016}) & (${lpm2_p_treat2016}) & (${lpm3_p_treat2016}) & (${lpm4_p_treat2016})\tabularnewline
 tex & {[}${lpm1_c1_treat2016},${lpm1_c2_treat2016}{]} & {[}${lpm2_c1_treat2016},${lpm2_c2_treat2016}{]} & {[}${lpm3_c1_treat2016},${lpm3_c2_treat2016}{]} & {[}${lpm4_c1_treat2016},${lpm4_c2_treat2016}{]}\tabularnewline
 tex  &  &  &  & \tabularnewline
-tex Female Profesor & ${lpm1_female_prof} & ${lpm2_female_prof} & ${lpm3_female_prof} & ${lpm4_female_prof}\tabularnewline
+tex Female Professor & ${lpm1_female_prof} & ${lpm2_female_prof} & ${lpm3_female_prof} & ${lpm4_female_prof}\tabularnewline
 tex & (${lpm1_p_female_prof}) & (${lpm2_p_female_prof}) & (${lpm3_p_female_prof}) & (${lpm4_p_female_prof})\tabularnewline
 tex & {[}${lpm1_c1_female_prof},${lpm1_c2_female_prof}{]} & {[}${lpm2_c1_female_prof},${lpm2_c2_female_prof}{]} & {[}${lpm3_c1_female_prof},${lpm3_c2_female_prof}{]} & {[}${lpm4_c1_female_prof},${lpm4_c2_female_prof}{]}\tabularnewline
 tex  &  &  &  & \tabularnewline

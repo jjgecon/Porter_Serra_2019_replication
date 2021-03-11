@@ -56,6 +56,7 @@
 \cite_engine natbib
 \cite_engine_type authoryear
 \biblio_style plainnat
+\biblio_options round
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -146,8 +147,7 @@ literal "false"
  In this document I will explore whether female professors served as a catalyst
  for the role models to inspire students to major in economics.
  The idea is that students who were exposed to the role model visit and
- had a female teachers would have greater engagement with the economics
- major.
+ had a female teacher would have greater engagement with the economics major.
  
 \end_layout
 
@@ -157,9 +157,13 @@ n?
 \end_layout
 
 \begin_layout Standard
-To explore this question, I modified the paper's equation (2) adding triple
+To explore this question, I used the paper's equation (2) and added triple
  interaction between a the professor’s gender, the treated classes, and
- if the class was taught in 2016: 
+ if the class was taught in 2016 for each student 
+\begin_inset Formula $i$
+\end_inset
+
+: 
 \begin_inset Formula 
 \begin{eqnarray}
 Y_{i} & = & \beta_{0}+\beta_{1}dt_{i}+\beta_{2}dT_{i}+\beta_{3}dFP_{i}+\beta_{4}dt_{i}\times dT_{i}+\beta_{5}dt_{i}\times dFP_{i}+\beta_{6}dT_{i}\times dFP_{i}\label{eq:1}\\
@@ -198,23 +202,13 @@ The variable
 
 \begin_layout Standard
 Although the intervention was random, there is no guarantee that female
- professors are exogeneous to the model.
+ professors are exogenous to the model.
  In other words, I cannot infer that female professors have a direct impact
- on economic mayor engagements of the classroom using the model 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
+ on economic mayor engagements of the classroom using my specification.
 \end_layout
 
 \begin_layout Standard
-I am interested in the coeficient 
+I am interested in the coefficient 
 \begin_inset Formula $\beta_{7}$
 \end_inset
 
@@ -233,7 +227,7 @@ noprefix "false"
 \end_inset
 
  for female and male students by OLS, clustered the standard errors by class
- and used wild bootstraping to account for small clusters .
+ and used wild bootstrapping to account for small clusters.
 \end_layout
 
 \begin_layout Paragraph
@@ -438,7 +432,7 @@ econ class
 \begin_inset Text
 
 \begin_layout Plain Layout
-Female Profesor 
+Female Professor 
 \begin_inset Formula $\times$
 \end_inset
 
@@ -633,7 +627,7 @@ Female Profesor
 \begin_inset Text
 
 \begin_layout Plain Layout
-Female Profesor 
+Female Professor 
 \begin_inset Formula $\times$
 \end_inset
 
@@ -825,7 +819,7 @@ Year 2016
 \begin_inset Text
 
 \begin_layout Plain Layout
-Female Profesor 
+Female Professor 
 \begin_inset Formula $\times$
 \end_inset
 
@@ -1209,7 +1203,7 @@ Year 2016
 \begin_inset Text
 
 \begin_layout Plain Layout
-Female Profesor
+Female Professor
 \end_layout
 
 \end_inset
@@ -2066,6 +2060,57 @@ status open
 \end_inset
 
 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\shape italic
+\size small
+Note
+\shape default
+: the table reports the coefficients estimated by OLS using specification
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Wild bootstrapping p-values are reported in parenthesis and confidence
+ intervals in brackets.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2095,7 +2140,7 @@ noprefix "false"
 \end_inset
 
  for female students.
- Focusing on our coefficient of interest, female professor only enhanced
+ Focusing on the coefficient of interest, female professor only enhanced
  female students’ immediate interest in the economics mayors.
  In the first column female professors had a significant positive correlation
  with female students taking an economics class the next Fall.
@@ -2111,7 +2156,7 @@ Male students
 
 \begin_layout Standard
 While male students were not inspired by the one visit of the female role
- models, they might have been inspired by female profesors.
+ models, they might have been inspired by female professors.
  Table 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2132,8 +2177,7 @@ noprefix "false"
 
 \end_inset
 
- estimations and suggest that treated male students were inspired by their
- female professors.
+ estimations for male students.
  In contrast with the female students, female professors of treated classes
  might have an immediate and prolonged effect on male students.
  Female professors might deter male students to take an econ class next
@@ -2149,8 +2193,8 @@ noprefix "false"
 
 .
  In other words, students who were exposed to role models and had a female
- teacher were less likely to take an economics class less fall compared
- to those treated male students that had a male professors.
+ teacher were likely to take an economics class next fall compared to those
+ treated male students that had a male professors.
  This seems to be consistent with the idea that effective role models tend
  to be the same gender of the student.
  
@@ -2158,13 +2202,13 @@ noprefix "false"
 placement t
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Male student's probability of chosing econ major by female professor
+Male student's probability of choosing econ major by female professor
 \begin_inset CommandInset label
 LatexCommand label
 name "f1"
@@ -2186,9 +2230,59 @@ name "f1"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/javie/OneDrive/Work/Personal Projects/Porter_Serra_replication/figures_tables/figure1_extra.svg
+	filename D:/OneDrive/Work/Personal Projects/Porter_Serra_replication/figures_tables/figure1_extra.svg
 	display false
 	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\shape italic
+\size small
+Note
+\shape default
+: the probability was estimated using a Probit model with specification
+ 
+\size default
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "f1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\size small
+.
+ The black lines represent the 95% confidence intervals.
+\end_layout
 
 \end_inset
 
@@ -2211,13 +2305,11 @@ noprefix "false"
 
 \end_inset
 
- tells and interesting tale about the likelihood of male students to major
- in economics.
- Controlling for the gender of the professors, male students seem to negatively
- respond to the intervention of the role models.
+ shows how male students seem to negatively respond to the intervention
+ of the role models, controlling for the gender of the professors.
  In fact, the interaction between treated class and the dummy of the class
- taught in 2016 is both negative and insignificant, regardless of the professor’
-s gender.
+ taught in 2016 is both negative and significant, regardless of the professor’s
+ gender.
  However, those male students who were exposed to the role models and female
  professors were more likely to major in economics.
  This finding implies that male students can be inspired by female role
@@ -2254,7 +2346,7 @@ noprefix "false"
 placement t
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2447,7 +2539,7 @@ econ class
 \begin_inset Text
 
 \begin_layout Plain Layout
-Female Profesor 
+Female Professor 
 \begin_inset Formula $\times$
 \end_inset
 
@@ -2642,7 +2734,7 @@ Female Profesor
 \begin_inset Text
 
 \begin_layout Plain Layout
-Female Profesor 
+Female Professor 
 \begin_inset Formula $\times$
 \end_inset
 
@@ -2834,7 +2926,7 @@ Year 2016
 \begin_inset Text
 
 \begin_layout Plain Layout
-Female Profesor 
+Female Professor 
 \begin_inset Formula $\times$
 \end_inset
 
@@ -3218,7 +3310,7 @@ Year 2016
 \begin_inset Text
 
 \begin_layout Plain Layout
-Female Profesor
+Female Professor
 \end_layout
 
 \end_inset
@@ -4075,6 +4167,53 @@ status open
 \end_inset
 
 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\shape italic
+\size small
+Note
+\shape default
+: the table reports the coefficients estimated by OLS using specification
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Wild bootstrapping p-values are reported in parenthesis and confidence
+ intervals in brackets.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4090,7 +4229,7 @@ Are female professors better teachers?
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -4604,6 +4743,53 @@ Observations
 \end_inset
 
 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\shape italic
+\size small
+Note
+\shape default
+: the table reports the coefficients estimated by OLS using specification
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Wild bootstrapping p-values are reported in parenthesis and confidence
+ intervals in brackets.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4615,12 +4801,21 @@ Observations
 Male students could be inspired by female professors to pursue economics
  because female professors can be more caring or better teachers than their
  male counterparts.
- Table 3 attempts to tests this hypothesis by looking at what drives the
- students grades in the Principles class across the sample.
- Female professors do not influence the overall grade of the class, suggested
- by the insignificant coefficient.
- Assuming that male and female professors have different teaching styles
- it does not reflex on the performance of their students.
+ Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "t3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ attempts to tests this hypothesis by looking at what drives the students
+ grades in the Principles class across the sample.
+ Female professors might negatively influence the overall grade of the class,
+ but this coefficient is statistically insignificant suggested by the insignific
+ant coefficient.
  Sadly, I cannot assess whether female professors are more caring to their
  male students and through this channel inspiring them to major in economics.
  
@@ -4630,16 +4825,36 @@ Male students could be inspired by female professors to pursue economics
 To isolate the correlation between grades and female professors I controlled
  for small classes, accumulated GPA up until the Principles class and the
  students intended econ major.
- High achieving students prior the Principles class had better grades in
- the class.
- In contrasts, class size and the student’s intent to major in econ had
+ While high achieving students prior the Principles class had better grades
+ in the class, class size and the student’s intent to major in econ had
  no effect on their grades.
  
+\end_layout
+
+\begin_layout Paragraph
+Closing Remarks
+\end_layout
+
+\begin_layout Standard
+There is to be some evidence supporting that female professors could have
+ inspired male students that interacted with the role models.
+ Female professors could have negative short-term effect on the student’s
+ choice to immediately take an economics class next semester, but female
+ professors positively correlated with higher male economics majors subjected
+ to the role-model visit.
+ I think this finding suggests that female professors can inspire male students
+ when the students reflect on the opposite gender experiences and teachings.
+ Overall, the economics literate has yet to understand how role models could
+ mitigate gender disparities in STEM fields and when are they appropriate
+ to implement.
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
 bibfiles "my_bibtex"
-options "papalike"
+options "chicago"
 
 \end_inset
 

@@ -145,7 +145,7 @@ literal "false"
 
 .
  In this document I will explore whether female professors served as a catalyst
- for the role models to inspire students to major in economics.
+ for the role models and further inspire students to major in economics.
  The idea is that students who were exposed to the role model visit and
  had a female teacher would have greater engagement with the economics major.
  
@@ -176,7 +176,12 @@ Y_{i} & = & \beta_{0}+\beta_{1}dt_{i}+\beta_{2}dT_{i}+\beta_{3}dFP_{i}+\beta_{4}
 \end_layout
 
 \begin_layout Standard
-The variable 
+\begin_inset Formula $Y_{i}$
+\end_inset
+
+ is a student's engagement with the economics major, such as taking an economics
+ class next fall or choosing the economics major.
+ The variable 
 \begin_inset Formula $dt_{i}$
 \end_inset
 
@@ -185,7 +190,8 @@ The variable
 \begin_inset Formula $dT_{i}$
 \end_inset
 
- is a dummy equal to one if it is a treated class and zero otherwise, 
+ is a dummy equal to one if it a role model visited the class (treated class)
+ and zero otherwise, 
 \begin_inset Formula $dFP_{i}$
 \end_inset
 
@@ -204,7 +210,7 @@ The variable
 Although the intervention was random, there is no guarantee that female
  professors are exogenous to the model.
  In other words, I cannot infer that female professors have a direct impact
- on economic mayor engagements of the classroom using my specification.
+ on economic engagement measures using my specification.
 \end_layout
 
 \begin_layout Standard
@@ -347,7 +353,7 @@ Took another
 \begin_inset Text
 
 \begin_layout Plain Layout
-next Fall
+next fall
 \end_layout
 
 \end_inset
@@ -2143,7 +2149,7 @@ noprefix "false"
  Focusing on the coefficient of interest, female professor only enhanced
  female students’ immediate interest in the economics mayors.
  In the first column female professors had a significant positive correlation
- with female students taking an economics class the next Fall.
+ with female students taking an economics class the next fall.
  The remaining columns report positive but insignificant correlations.
  This suggests that female professors enhanced the immediate interest of
  their female students who were exposed to the role models.
@@ -2156,7 +2162,8 @@ Male students
 
 \begin_layout Standard
 While male students were not inspired by the one visit of the female role
- models, they might have been inspired by female professors.
+ models, they might have been inspired by the combination of female professors
+ and female role models.
  Table 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2177,11 +2184,14 @@ noprefix "false"
 
 \end_inset
 
- estimations for male students.
+ estimation for male students.
  In contrast with the female students, female professors of treated classes
- might have an immediate and prolonged effect on male students.
- Female professors might deter male students to take an econ class next
- Fall, showed in the first column on Table 
+ might have a negative immediate and a positive prolonged effect on male
+ students.
+ Students who were exposed to role models and had a female teacher were
+ likely to take an economics class next fall compared to those treated male
+ students that had a male professors, shown by the first column of table
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "t2"
@@ -2192,9 +2202,6 @@ noprefix "false"
 \end_inset
 
 .
- In other words, students who were exposed to role models and had a female
- teacher were likely to take an economics class next fall compared to those
- treated male students that had a male professors.
  This seems to be consistent with the idea that effective role models tend
  to be the same gender of the student.
  
@@ -2205,13 +2212,13 @@ noprefix "false"
 placement t
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Male student's probability of choosing econ major by female professor
+Treated ale student's probability of choosing econ major by female professor
 \begin_inset CommandInset label
 LatexCommand label
 name "f1"
@@ -2298,7 +2305,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-Column 2 in Table 
+The second column in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "t2"
@@ -2308,12 +2315,7 @@ noprefix "false"
 
 \end_inset
 
- shows how male students seem to negatively respond to the intervention
- of the role models, controlling for the gender of the professors.
- In fact, the interaction between treated class and the dummy of the class
- taught in 2016 is both negative and significant, regardless of the professor’s
- gender.
- However, those male students who were exposed to the role models and female
+ shows how male students who were exposed to the role models and female
  professors were more likely to major in economics.
  This finding implies that male students can be inspired by female role
  models, but they cannot be exposed to a male role model in the classroom.
@@ -2457,7 +2459,7 @@ Took another
 \begin_inset Text
 
 \begin_layout Plain Layout
-next Fall
+next fall
 \end_layout
 
 \end_inset
@@ -4814,13 +4816,12 @@ noprefix "false"
 
 \end_inset
 
- attempts to tests this hypothesis by looking at what drives the students
- grades in the Principles class across the sample.
+ attempts to tests this hypothesis by looking at what drives male students's
+ grades in Principles classes.
  Female professors might negatively influence the overall grade of the class,
- but this coefficient is statistically insignificant suggested by the insignific
-ant coefficient.
- Sadly, I cannot assess whether female professors are more caring to their
- male students and through this channel inspiring them to major in economics.
+ but the coefficient is imprecise due to the small sample size.
+ Sadly, I cannot assess whether female professors than their male counterparts
+ and through this channel inspiring them to major in economics.
  
 \end_layout
 
@@ -4839,17 +4840,17 @@ Closing Remarks
 \end_layout
 
 \begin_layout Standard
-There is to be some evidence supporting that female professors could have
- inspired male students that interacted with the role models.
+There is some evidence supporting that female professors could have inspired
+ male students that interacted with the role models.
  Female professors could have negative short-term effect on the student’s
  choice to immediately take an economics class next semester, but female
- professors positively correlated with higher male economics majors subjected
- to the role-model visit.
+ professors are associated with a higher male economics majors.
  I think this finding suggests that female professors can inspire male students
  when the students reflect on the opposite gender experiences and teachings.
- Overall, the economics literate has yet to understand how role models could
- mitigate gender disparities in STEM fields and when are they appropriate
- to implement.
+ The economics literate has yet to answer the following answers: How long
+ do the inspiration from role models lasts? How the timing of the role model
+ visit of exposure changes with the gender of the students? Either way,
+ I look forward to this literature.
 \end_layout
 
 \begin_layout Standard

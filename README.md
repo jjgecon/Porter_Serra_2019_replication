@@ -1,5 +1,7 @@
 # Replication Exercise of "Gender Differences in the Choice of Major: The Importance of Female Role Models"
 
+
+
 Here are the STATA codes of the replication exercise of the excelent paper "Gender Differences in the Choice of Major:The Importance of Female Role Models" by Catherine Porter and Danila Serra. 
 
 The codes generate all the tables, in LaTeX, and almost all the figures in the published paper. To run all the codes, just run the 0_master.do and it should reproduce all the desired tables and figures.
@@ -13,4 +15,6 @@ The codes generate all the tables, in LaTeX, and almost all the figures in the p
 
 ## Personal analysis
 
-To add value to the paper and the replication exercise, I will explore if there is a subsample male students who were encouraged by the role models. The analysis can be found in this [pdf(Comming Soon)]().
+To add value to the paper and the replication exercise, I will explore if there is a subsample male students who were encouraged by the role models. The analysis can be found in this [pdf](https://jjgecon.github.io/assets/resources/Porter_Serra_rep_add_a.pdf).
+
+*If there is any problem or error in the repository please feel free to open an issue*

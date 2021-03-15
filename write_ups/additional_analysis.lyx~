@@ -2198,6 +2198,9 @@ noprefix "false"
  This seems to be consistent with the idea that effective role models tend
  to be the same gender of the student.
  
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 placement t
 wide false
@@ -2232,7 +2235,7 @@ name "f1"
 \begin_inset Graphics
 	filename D:/OneDrive/Work/Personal Projects/Porter_Serra_replication/figures_tables/figure1_extra.svg
 	display false
-	scale 60
+	scale 80
 
 \end_inset
 
@@ -2346,7 +2349,7 @@ noprefix "false"
 placement t
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -4229,7 +4232,7 @@ Are female professors better teachers?
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center

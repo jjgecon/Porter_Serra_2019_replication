@@ -15,6 +15,6 @@ The codes generate all the tables in LaTeX, and almost all the figures in the pu
 
 ## Personal analysis
 
-To add value to the paper and the replication exercise, I will explore if there is a subsample male students who were encouraged by the role models. The analysis can be found in this [pdf](https://jjgecon.github.io/assets/resources/Porter_Serra_rep_add_a.pdf).
+To add value to the paper and the replication exercise, I explored if there was a subsample male students who were encouraged by the female role models. The analysis is available in [pdf](https://jjgecon.github.io/assets/resources/Porter_Serra_rep_add_a.pdf).
 
 *If there is any problem or error in the repository please feel free to open an issue*.

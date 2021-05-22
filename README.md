@@ -10,7 +10,7 @@ The codes generate all the tables in LaTeX, and almost all the figures in the pu
 
 - The data is not included in this repository. However, members of the AEA can access the data set on the Additional Materials [here](https://www.aeaweb.org/articles?id=10.1257/app.20180426).
 - All regresion p values and confidence intervals are different from the paper because I used another random seed.
-- Figures's style and colors were created with STATA's graph recorder. The instructions on how to "install" the recording inside the master code and in each figure do file. The project's recordings are available in the "graph_recordings" folder.
+- Figures's style and colors were created with STATA's graph recorder. The instructions on how to "install" the recording are inside the master code and in each figure do file. The project's recordings are available in the "graph_recordings" folder.
 - Figure 4 could not be replicated because there is no data available on the 2014 classes in the AEA's data set.
 
 ## Personal analysis
